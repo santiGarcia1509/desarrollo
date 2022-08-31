@@ -1,0 +1,126 @@
+header{
+    width: 152px;
+    height: 130px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.select-links a{
+    color: red;
+    float: right;
+    font-size: 20px;
+}
+.select-links a:hover,
+.regresarGalaxias:hover,
+.regresarAgujero:hover,
+.regresarSolares:hover,
+.regresarNebulosa:hover{
+    background-color: purple;
+    color: white;
+}
+.bingBang,
+.Cuerdas,
+.oscilante,
+.textoInicio{
+    color:red ;
+    padding:10px;
+    text-align: center;
+    border-style: ridge;
+}
+.imagenAgujero{
+    width: 60%;
+    height: 60%;
+}
+.description-pagina p{
+    color:white ;
+    padding:10px;
+    text-align: center;
+}
+.globalGalaxias,
+.globalSolares,
+.globalNebulosa,
+.globalAgujeros{
+    background-color: black;
+}
+
+.agujeros,
+.galaxias,
+.SisSolares,
+.Nebulosa{
+    color: white;
+    text-align: center;
+    margin:auto ;
+}
+
+.regresarAgujero{
+    font-size: 20px;
+    color: orangered;
+}
+
+.regresarGalaxias{
+    color: violet;
+    font-size: 20px;
+}
+.regresarNebulosa,
+.regresarSolares{
+    color: orangered;
+    font-size: 20px;
+}
+.SisSolares h1{
+    color: gray;
+    font-size: 40px;
+}
+
+.SisSolares ul > li,
+.Nebulosa ul > li{
+    text-align: left;
+}
+
+
+.Nebulosa > h1{
+    color: orangered;
+    font-size: 40px;
+}
+
+.teorias{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+.containerAgujeros,
+.containerGalaxia,
+.containerSolar,
+.containerNebulosa{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.textoAgujero > p,
+.textoGalaxia > p,
+.textoSolar,
+.textoNebulosa {
+    color: white;
+    text-align: center;
+    border-style: ridge;
+}
+
+.tituloAgu{
+    color: red;
+    text-align: center;
+}
+.tituloGal{
+    color: blueviolet;
+    text-align: center;
+}
+.tituloSol,
+.tituloNebulosa{
+    color: orangered;
+    text-align: center;
+}
+footer{
+    color: brown;
+    text-align: right;
+}
